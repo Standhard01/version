@@ -1,0 +1,71 @@
+@import url("../partial/typography.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.space-tb {
+  padding: 6em 0;
+  position: relative;
+}
+.no-pt {
+  padding-top: 0;
+}
+.no-pb {
+  padding-bottom: 0;
+}
+
+.heading-section .subheading {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 0;
+  color: #03a9f4;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+}
+.heading-section h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.heading-section.heading-section-white .subheading {
+  color: rgba(255, 255, 255, 0.9);
+}
+.heading-section.heading-section-white h2 {
+  font-size: 40px;
+  color: #fff;
+}
+.heading-section.heading-section-white p {
+  color: rgba(255, 255, 255, 0.9);
+}
+.img,
+.img-2,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-popup {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 6em 0;
+  }
+  .heading-section h2 {
+    font-size: 28px;
+  }
+}
